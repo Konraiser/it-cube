@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPane" prefHeight="640.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Set_Theme_Scene_Controller">
+   <children>
+      <ImageView fx:id="Background_Image" fitHeight="646.0" fitWidth="1335.0" layoutX="-10.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+         <image>
+            <Image url="@../assets/images/Background_For_Select.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R_C_Em_1" fitHeight="30.0" fitWidth="37.0" layoutX="70.0" layoutY="84.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Red_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R_C_Em_2" fitHeight="30.0" fitWidth="37.0" layoutX="264.0" layoutY="85.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Red_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="G_C_Em_3" fitHeight="30.0" fitWidth="37.0" layoutX="70.0" layoutY="185.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Green_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R_C_Em_3" fitHeight="30.0" fitWidth="37.0" layoutX="70.0" layoutY="185.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Red_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="W_C_Em_3" fitHeight="30.0" fitWidth="37.0" layoutX="70.0" layoutY="185.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/White_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="G_C_Em_4" fitHeight="30.0" fitWidth="37.0" layoutX="264.0" layoutY="185.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Green_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R_C_Em_4" fitHeight="30.0" fitWidth="37.0" layoutX="264.0" layoutY="185.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Red_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="W_C_Em_4" fitHeight="30.0" fitWidth="37.0" layoutX="264.0" layoutY="185.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/White_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="G_C_Em_5" fitHeight="30.0" fitWidth="37.0" layoutX="70.0" layoutY="285.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Green_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R_C_Em_5" fitHeight="30.0" fitWidth="37.0" layoutX="70.0" layoutY="285.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Red_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="W_C_Em_5" fitHeight="30.0" fitWidth="37.0" layoutX="70.0" layoutY="285.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/White_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="G_C_Em_6" fitHeight="30.0" fitWidth="37.0" layoutX="264.0" layoutY="285.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Green_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R_C_Em_6" fitHeight="30.0" fitWidth="37.0" layoutX="264.0" layoutY="285.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Red_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="W_C_Em_6" fitHeight="30.0" fitWidth="37.0" layoutX="264.0" layoutY="285.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/White_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="B_C_Em_1" fitHeight="30.0" fitWidth="37.0" layoutX="70.0" layoutY="84.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Blue_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="B_C_Em_2" fitHeight="30.0" fitWidth="37.0" layoutX="265.0" layoutY="85.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Blue_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="B_C_Em_3" fitHeight="30.0" fitWidth="37.0" layoutX="70.0" layoutY="184.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Blue_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="B_C_Em_4" fitHeight="30.0" fitWidth="37.0" layoutX="265.0" layoutY="184.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Blue_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="B_C_Em_5" fitHeight="30.0" fitWidth="37.0" layoutX="70.0" layoutY="284.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Blue_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="B_C_Em_6" fitHeight="30.0" fitWidth="37.0" layoutX="265.0" layoutY="284.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Blue_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="G_C_Em_1" fitHeight="30.0" fitWidth="37.0" layoutX="70.0" layoutY="84.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Green_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="G_C_Em_2" fitHeight="30.0" fitWidth="37.0" layoutX="265.0" layoutY="85.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Green_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="W_C_Em_1" fitHeight="30.0" fitWidth="37.0" layoutX="70.0" layoutY="84.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/White_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="W_C_Em_2" fitHeight="30.0" fitWidth="37.0" layoutX="264.0" layoutY="85.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/White_Chaos_Emerald.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="BetweenScenes" arcHeight="5.0" arcWidth="5.0" height="640.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1280.0" />
+      <JFXButton fx:id="EH_B" layoutX="89.0" layoutY="164.0" onAction="#EH_B_Act" onMouseEntered="#EH_B_M" onMouseExited="#EH_B_MF" onMousePressed="#EH_B_M_Pr" onMouseReleased="#EH_B_M_Re" prefHeight="70.0" prefWidth="194.0" style="-fx-background-color: invisible;" text="Emerald Hill">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="MG_B" layoutX="89.0" layoutY="264.0" onAction="#MG_B_Act" onMouseEntered="#MG_B_M" onMouseExited="#MG_B_MF" onMousePressed="#MG_B_M_Pr" onMouseReleased="#MG_B_M_Re" prefHeight="70.0" prefWidth="194.0" style="-fx-background-color: invisible;" text="Marble Garden">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="GH_B" layoutX="89.0" layoutY="64.0" onAction="#GH_B_Act" onMouseEntered="#GH_B_M" onMouseExited="#GH_B_MF" onMousePressed="#GH_B_M_Pr" onMouseReleased="#GH_B_M_Re" prefHeight="70.0" prefWidth="194.0" style="-fx-background-color: invisible;" text="Green Hill">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="Main_Menu_B" layoutX="486.0" layoutY="566.0" onAction="#Main_Menu_B_Act" onMouseEntered="#Main_Menu_B_M" onMouseExited="#Main_Menu_B_MF" onMousePressed="#Main_Menu_B_MPr" onMouseReleased="#Main_Menu_B_MRe" prefHeight="71.0" prefWidth="307.0" style="-fx-background-color: invisible;" text="Main Menu" textAlignment="CENTER" translateY="5.0">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
